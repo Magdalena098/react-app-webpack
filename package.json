@@ -17,9 +17,11 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-google-maps": "^6.3.0",
+    "style-loader": "^0.18.2",
     "webpack": "^2.6.1"
   },
   "devDependencies": {
+    "axios": "^0.16.2",
     "css-loader": "^0.28.4",
     "extract-text-webpack-plugin": "^2.1.0",
     "sass-loader": "^6.0.5",
