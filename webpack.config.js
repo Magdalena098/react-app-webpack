@@ -1,5 +1,5 @@
-var webpack = require('webpack')
-var path = require('path')
+var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
 
@@ -11,12 +11,6 @@ module.exports = {
        sourceMapFilename: 'build/bundle.map'
 	},
 	devtool: '#source-map',
-
-  plugins:[
-    new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify('production')
-    })
-  ],
   
 	module: {
 		loaders: [
@@ -26,6 +20,9 @@ module.exports = {
               query: {
               	  presets: ['react', 'es2015']
               }
+            },
+            {
+              test: /\.css$/
             }
 		]
 	}

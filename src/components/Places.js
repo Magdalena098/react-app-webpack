@@ -5,7 +5,7 @@ class Places extends Component {
 	render(){
     
 		return (
-          <div>
+          <div className="venues">
             <ul>
               {
                 this.props.data.map((value, i) => {
