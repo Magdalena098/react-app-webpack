@@ -58,12 +58,12 @@ list-style:none;
 	    }
 
 	    .btn:hover {
-			-webkit-transition:all .3s ease-in-out;
-			-moz-transition:all .3s ease-in-out;
-			-o-transition:all .3s ease-in-out;
-			transition:all .3s ease-in-out;
-			text-decoration:none;
-			background-color:#4169E1;
+		  -webkit-transition:all .3s ease-in-out;
+		  -moz-transition:all .3s ease-in-out;
+		  -o-transition:all .3s ease-in-out;
+		  transition:all .3s ease-in-out;
+		  text-decoration:none;
+		  background-color:#4169E1;
         }
     }
 }
@@ -72,19 +72,19 @@ list-style:none;
 @media screen and (max-width: 500px) {
 
    #root {
-       form {
+        form {
          width:100%;
          padding:15px;
 
-           input {
+            input {
          	 width:100%;
          	 display:block;
-           }
-       }
+            }
+        }
 
        .btn {
          margin-top:20px;
-       }
+        }
     }
 }
 
